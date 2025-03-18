@@ -61,13 +61,13 @@ function Navigation() {
       {isOpen && (
         <ul className="md:hidden bg-white w-full absolute left-0 top-16 shadow-md">
           <li>
-            <a href="#" className="block text-gray-600 text-lg font-medium hover:text-gray-900 transition duration-300 p-4 border-b">Jewellery</a>
+            <a href="/" className="block text-gray-600 text-lg font-medium hover:text-gray-900 transition duration-300 p-4 border-b">Jewellery</a>
           </li>
           <li>
             <a href="#" className="block text-gray-600 text-lg font-medium hover:text-gray-900 transition duration-300 p-4 border-b">Offers</a>
           </li>
           <li>
-            <a href="#" className="block text-gray-600 text-lg font-medium hover:text-gray-900 transition duration-300 p-4 border-b">About Us</a>
+            <a href="./aboutus" className="block text-gray-600 text-lg font-medium hover:text-gray-900 transition duration-300 p-4 border-b">About Us</a>
           </li>
           <li>
             <a href="#" className="block text-gray-600 text-lg font-medium hover:text-gray-900 transition duration-300 p-4">Ambassador</a>

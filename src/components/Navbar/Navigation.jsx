@@ -10,7 +10,7 @@ function Navigation() {
         {/* Left Section */}
         <ul className="hidden md:flex space-x-8 mx-15.5">
           <li>
-            <a href="#" className="text-gray-600 text-lg font-medium hover:text-gray-900 transition duration-300 border-b-2 border-transparent hover:border-gray-900">
+            <a href="/" className="text-gray-600 text-lg font-medium hover:text-gray-900 transition duration-300 border-b-2 border-transparent hover:border-gray-900">
               Jewellery
             </a>
           </li>
@@ -31,7 +31,7 @@ function Navigation() {
             onMouseEnter={() => setAboutUsOpen(true)}
             onMouseLeave={() => setAboutUsOpen(false)}
           >
-            <a href="#" className="text-gray-600 text-lg font-medium hover:text-gray-900 transition duration-300 border-b-2 border-transparent hover:border-gray-900">
+            <a href="./aboutus" className="text-gray-600 text-lg font-medium hover:text-gray-900 transition duration-300 border-b-2 border-transparent hover:border-gray-900">
               About Us
             </a>
             {aboutUsOpen && (
